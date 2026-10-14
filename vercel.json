@@ -1,4 +1,8 @@
 {
-  "buildCommand": "",
-  "outputDirectory": ""
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/app.py"
+    }
+  ]
 }
